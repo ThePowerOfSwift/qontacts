@@ -12,7 +12,9 @@
 		F615AEC419DCBA8700BC69DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F615AEC319DCBA8700BC69DB /* Images.xcassets */; };
 		F615AEC719DCBA8800BC69DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F615AEC519DCBA8800BC69DB /* LaunchScreen.xib */; };
 		F615AED319DCBA8800BC69DB /* qontactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615AED219DCBA8800BC69DB /* qontactsTests.swift */; };
-		F6F9283719DD9E0B00FDBD32 /* ConfCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F9283619DD9E0B00FDBD32 /* ConfCallViewController.swift */; };
+		F62769E619DE3B5400D2871E /* PickContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62769E519DE3B5400D2871E /* PickContentViewController.swift */; };
+		F6F9283F19DDA72D00FDBD32 /* CallingAgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F9283E19DDA72D00FDBD32 /* CallingAgendaViewController.swift */; };
+		F6F9284119DDA74600FDBD32 /* ConfCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F9284019DDA74600FDBD32 /* ConfCallViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,9 @@
 		F615AECC19DCBA8800BC69DB /* qontactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qontactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F615AED119DCBA8800BC69DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F615AED219DCBA8800BC69DB /* qontactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qontactsTests.swift; sourceTree = "<group>"; };
-		F6F9283619DD9E0B00FDBD32 /* ConfCallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfCallViewController.swift; sourceTree = "<group>"; };
+		F62769E519DE3B5400D2871E /* PickContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickContentViewController.swift; sourceTree = "<group>"; };
+		F6F9283E19DDA72D00FDBD32 /* CallingAgendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallingAgendaViewController.swift; sourceTree = "<group>"; };
+		F6F9284019DDA74600FDBD32 /* ConfCallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfCallViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 			children = (
 				F615AEBA19DCBA8700BC69DB /* AppDelegate.swift */,
 				F615AEC019DCBA8700BC69DB /* Main.storyboard */,
+				F62769E519DE3B5400D2871E /* PickContentViewController.swift */,
+				F6F9284019DDA74600FDBD32 /* ConfCallViewController.swift */,
+				F6F9283E19DDA72D00FDBD32 /* CallingAgendaViewController.swift */,
 				F615AEC319DCBA8700BC69DB /* Images.xcassets */,
 				F615AEC519DCBA8800BC69DB /* LaunchScreen.xib */,
 				F615AEB819DCBA8700BC69DB /* Supporting Files */,
-				F6F9283619DD9E0B00FDBD32 /* ConfCallViewController.swift */,
 			);
 			path = qontacts;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6F9283719DD9E0B00FDBD32 /* ConfCallViewController.swift in Sources */,
+				F6F9284119DDA74600FDBD32 /* ConfCallViewController.swift in Sources */,
 				F615AEBB19DCBA8700BC69DB /* AppDelegate.swift in Sources */,
+				F6F9283F19DDA72D00FDBD32 /* CallingAgendaViewController.swift in Sources */,
+				F62769E619DE3B5400D2871E /* PickContentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

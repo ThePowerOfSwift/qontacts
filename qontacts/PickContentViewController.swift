@@ -1,5 +1,5 @@
 //
-//  ConfCallViewController.swift
+//  PickContentViewController.swift
 //  qontacts
 //
 //  Created by Stanley Chiang on 10/2/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ConfCallViewController: UIViewController {
+class PickContentViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
